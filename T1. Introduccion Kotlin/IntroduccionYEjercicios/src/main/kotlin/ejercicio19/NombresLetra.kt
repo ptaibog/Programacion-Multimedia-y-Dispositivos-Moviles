@@ -11,5 +11,5 @@ fun main() {
     }
     val coincidencias = arrayNombres.filter { it.startsWith(letra, ignoreCase = true) }
 
-    println(coincidencias)
+    println("Estos nombres empiezan con la letra $letra: $coincidencias")
 }
